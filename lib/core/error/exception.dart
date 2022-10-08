@@ -1,7 +1,11 @@
 
-class ServerException implements Exception {}
+import 'package:move/core/massages/error_massage.dart';
 
-class EmptyCacheException implements Exception {}
+class ServerException implements Exception {
+   }
+
+class EmptyCacheException implements Exception {
+  }
 
 class OfflineException implements Exception {}
 
